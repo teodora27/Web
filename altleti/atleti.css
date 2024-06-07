@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#gallery {
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+/* Info section styling */
+#info {
+  width: 60%;
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+/* Style for the athlete cover images */
+.athlete-cover {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px; /* Make the images square with slightly rounded corners */
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+}
+
+/* Hover effect for athlete cover images */
+.athlete-cover:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-color: #555;
+}
+
+#info img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+

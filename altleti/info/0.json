@@ -1,0 +1,9 @@
+{
+    "name": "Neymar",
+    "sport": "Fotbal",
+    "date-of-birth": "1992-02-05",
+    "image": "imagini/atlet1.webp",
+    "label": "Brazilia",
+    "format": "LP",
+    "winings": ["La Liga", "Copa del Rey", "Champions League"]
+}

@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Neymar",
+      "sport": "Fotbal",
+      "image": "imagini/atlet1.webp"
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "sport": "Fotbal",
+      "image": "imagini/atlet2.webp"
+    },
+    {
+      "name": "Michael Phelps",
+      "sport": "Natație",
+      "image": "imagini/atlet3.webp"
+    },
+    {
+      "name": "Simona Halep",
+      "sport": "Tenis",
+      "image": "imagini/atlet4.webp"
+    },
+    {
+      "name": "Michael Jordan",
+      "sport": "Baschet",
+      "image": "imagini/atlet5.webp"
+    },
+    {
+      "name": "Juliana Spicoluk",
+      "sport": "Yoga",
+      "image": "imagini/atlet.webp"
+    }
+  ]
+  

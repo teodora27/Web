@@ -1,0 +1,15 @@
+[
+    { 
+        "username": "teo", 
+        "password": "123", 
+        "photo": "user_photo/poza1.jpg" ,
+        "highscore": null
+
+    },
+    { 
+        "username": "user2", 
+        "password": "password2", 
+        "photo": "user_photo/poza2.jpg",
+        "highscore": null
+    }
+]

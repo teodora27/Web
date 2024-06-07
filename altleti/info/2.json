@@ -1,0 +1,9 @@
+{
+    "name": "Michael Phelps",
+    "sport": "Natație",
+    "date-of-birth": "1985-06-30",
+    "image": "imagini/atlet3.webp",
+    "label": "SUA",
+    "format": "LP",
+    "winings": ["Jocuri Olimpice", "Campionate Mondiale", "Pan Pacific Championships"]
+}

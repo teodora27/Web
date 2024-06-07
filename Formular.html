@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style-formular.css" type="text/css">
+        <meta name="viewport" content="width=device-width" >
+        <link rel="icon" href="favicon.jpg" type="image/x-icon">
+        <script type="text/javascript" src="Formular.js"></script>
+        <title>Formular Sign In</title>
+    </head>
+
+    <body>
+        <h3>Formular de feedback pentru Jocul JS</h3>
+      
+        <div id="container"> 
+          <form>
+            <fieldset>
+             <legend>Date personale</legend>
+   
+             <label for="name">Nume complet:</label>
+             <input type="text" id="name" name="name" minlength="3" maxlength="30" required><br><br>
+              
+             <label for="id">Username:</label>
+             <input type="text" id="id" name="id" minlength="8" maxlength="20" pattern="[A-Za-z0-9]{8,20}" required><br><br>
+              
+             <label for="school">Grad de scolarizare:</label>
+             <select id="school" name="school" required>
+               <option value="">--Alege ultima treapa absolvita--</option>
+               <option value="Cresa">Cresa</option>
+               <option value="Gradinita">Gradinita</option>
+               <option value="Scoala primara">Scoala primara</option>
+               <option value="Scoala generala">Scoala generala</option>
+               <option value="Liceu">Liceu</option>
+               <option value="Licenta">Licenta</option>
+               <option value="Master">Master</option>
+               <option value="Doctorat">Doctorat</option>
+               <option value="Nescolarizat">Nescolarizat</option>
+            </select><br><br>
+   
+             <label for="birthdate">Data nașterii:</label>
+             <input type="date" id="birthdate" name="birthdate" min="1800-01-01" max="2024-05-13" required><br><br>
+              
+             <label for="photo">Fotografie:</label>
+             <input type="file" id="photo" name="photo" accept="image/*" ><br><br>
+            
+           </fieldset>
+           <fieldset>
+            <legend>Detalii despre joc</legend>
+
+            <label for="likeness">Cat de tare ti-a placut?:</label>
+            <input type="range" id="likeness" name="likeness" min="0" max="10" step="1" value="5" required>
+            <span id="creditValue">5</span> puncte<br><br>
+  
+            <label>Ai castigat jocul?:</label>
+            <input type="radio" id="da" name="castig" value="da" required>
+            <label for="da">DA</label>
+            <input type="radio" id="nu" name="castig" value="nu" required>
+            <label for="nu">NU</label><br><br>
+            
+            <label for="castigator">De cate ori ai castigat?:</label>
+            <input type="number" id="castigator" name="castigator" min="0" required><br><br>
+            
+            <label for="viteza">Timpul minim in care ai terminat jocul:</label>
+            <input type="time" id="viteza" name="viteza" required><br><br>
+          
+            <label>Ce mai trebuie inbunatatit:</label>
+            <input type="checkbox" id="culorile" name="purpose" value="culorile">
+            <label for="culorile">culorile</label>
+            <input type="checkbox" id="design" name="purpose" value="design">
+            <label for="design">designul</label>
+            <input type="checkbox" id="caracterele de pe carti" name="purpose" value="caracterele de pe carti">
+            <label for="caracterele de pe carti">caracterele de pe carti</label>
+            <input type="checkbox" id="numarul cartilor" name="purpose" value="numarul cartilor">
+            <label for="numarul cartilor">numatrul cartilor</label><br><br>
+             
+            <label for="comments">Comentarii:</label>
+            <textarea id="comments" name="comments"></textarea><br><br>
+
+          </fieldset>
+           <input type="submit" value="Trimite cerere">
+          </form>
+        </div>
+        
+
+    </body>
+
+
+</html>

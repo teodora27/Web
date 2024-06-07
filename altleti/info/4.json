@@ -1,0 +1,9 @@
+{
+    "name": "Michael Jordan",
+    "sport": "Baschet",
+    "date-of-birth": "1963-02-17",
+    "image": "imagini/atlet5.webp",
+    "label": "SUA",
+    "format": "LP",
+    "winings": ["NBA Championships", "Medalia de aur olimpică", "NCAA Championships"]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Ronaldo",
+    "sport": "Fotbal",
+    "date-of-birth": "1985-02-05",
+    "image": "imagini/atlet2.webp",
+    "label": "Portugalia",
+    "format": "LP",
+    "winings": ["Premier League", "La Liga", "Champions League"]
+}

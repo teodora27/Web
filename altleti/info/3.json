@@ -1,0 +1,9 @@
+{
+    "name": "Simona Halep",
+    "sport": "Tenis",
+    "date-of-birth": "1991-09-27",
+    "image": "imagini/atlet4.webp",
+    "label": "România",
+    "format": "LP",
+    "winings": ["Roland Garros", "Wimbledon", "Madrid Open"]
+}
